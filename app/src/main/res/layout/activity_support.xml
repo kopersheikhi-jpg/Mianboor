@@ -49,7 +49,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="12dp"
             android:lineSpacingExtra="4dp"
-            android:text="@string/support_desc"
+            android:text="@string/support_page_desc"
             android:textColor="@color/text_secondary"
             android:textSize="13sp" />
 

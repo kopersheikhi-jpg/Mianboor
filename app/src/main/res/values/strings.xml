@@ -75,9 +75,9 @@
 
     <!-- پشتیبانی -->
     <string name="support_title">پشتیبانی</string>
-    <string name="support_desc">تیم پشتیبانی همیشه کنار شماست؛ از هر یک از راه‌های زیر استفاده کنید</string>
+    <string name="support_page_desc">تیم پشتیبانی همیشه کنار شماست؛ از هر یک از راه‌های زیر استفاده کنید</string>
     <string name="support_telegram">تلگرام</string>
-    <string name="support_tg_handle">@mianboor_support</string>
+    <string name="support_tg_handle">\@mianboor_support</string>
     <string name="support_email">ایمیل</string>
     <string name="support_email_value">support@mianboor.app</string>
     <string name="support_hours">ساعات پاسخگویی</string>
