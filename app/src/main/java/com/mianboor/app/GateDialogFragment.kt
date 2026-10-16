@@ -5,6 +5,7 @@ import android.content.Intent
 import android.graphics.Color
 import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
+import android.text.InputFilter
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -68,7 +69,7 @@ class GateDialogFragment : DialogFragment() {
         super.onViewCreated(view, savedInstanceState)
         prefs = Prefs(requireContext())
 
-        b.etCode.filters = arrayOf(android.text.InputFilter.LengthFilter(AppConfig.CODE_MAX_LEN))
+        b.etCode.filters = arrayOf<InputFilter>(InputFilter.LengthFilter(AppConfig.CODE_MAX_LEN))
         b.etCode.doAfterTextChanged { b.tvError.visibility = View.GONE }
 
         b.btnActivate.setOnClickListener { activateCode() }

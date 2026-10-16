@@ -57,17 +57,26 @@ Mianboor/
 
 ## شروع سریع (اندروید استودیو)
 
-1. **Android Studio** (Narwhal یا جدیدتر) + **JDK 17** نصب کنید
-2. پروژه را کلون یا دانلود کنید:
+### 📲 راه ۱: دانلود مستقیم APK آماده (بدون برنامه‌نویسی!)
+
+1. به صفحه **Releases** بروید: [github.com/kopersheikhi-jpg/Mianboor/releases](https://github.com/kopersheikhi-jpg/Mianboor/releases)
+2. فایل `Mianboor-v1.0.0.apk` را دانلود کنید
+3. روی گوشی نصب کنید (اجازه «نصب از منابع ناشناس» را بدهید)
+
+> APK خودکار با GitHub Actions ساخته می‌شود؛ همچنین در تب **Actions** آخرین بیلد قابل دانلود است.
+
+### 🧑‍💻 راه ۲: دانلود سورس و بیلد با اندروید استودیو
+
+1. پروژه را کلون یا دانلود کنید:
+   - دکمه سبز **Code → Download ZIP** در بالای ریپو، یا:
    ```bash
    git clone https://github.com/kopersheikhi-jpg/Mianboor.git
    ```
+2. **Android Studio** (JDK 17) نصب کنید
 3. در اندروید استودیو: `File → Open` و پوشه‌ی `Mianboor` را باز کنید
-4. صبر کنید تا Gradle Sync تمام شود (اولین بار چند دقیقه طول می‌کشد)
+4. صبر کنید تا Gradle Sync تمام شود
 5. ساخت خروجی: `Build → Build App Bundles / APKs → Build APK(s)`
 6. فایل APK در `app/build/outputs/apk/debug/` ساخته می‌شود
-
-> خروجی release: `Build → Generate Signed Bundle / APK` و ساخت keystore مخصوص خودتان.
 
 ## تست فوری
 
