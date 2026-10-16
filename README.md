@@ -4,8 +4,6 @@
 
 **اپلیکیشن اندروید اشتراک کانفیگ — با تم شیشه‌ای نئون**
 
-<img src="app/src/main/res/drawable/ic_logo.xml" width="0" alt="">
-
 > میانبرِ شما به اینترنت آزاد
 
 </div>
