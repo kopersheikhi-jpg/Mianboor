@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Mianboor</string>
+    <string name="brand_name">MianBoor</string>
+
+    <!-- اسپلش -->
+    <string name="tagline">میانبرِ شما به اینترنت آزاد</string>
+    <string name="hud_top_start">SYSTEM ONLINE</string>
+    <string name="hud_top_end">NEON PROTOCOL</string>
+    <string name="hud_bottom_start">MIANBOOR UNIT</string>
+    <string name="hud_bottom_end">CONNECTED 100%</string>
+
+    <!-- پاپ‌آپ گیت -->
+    <string name="gate_title">خوش آمدید 👋</string>
+    <string name="gate_subtitle">برای دسترسی به کانفیگ‌ها، کد اشتراک خود را وارد کنید یا یکی از گزینه‌های زیر را انتخاب نمایید</string>
+    <string name="code_hint">کد اشتراک (عددی)</string>
+    <string name="activate">فعال‌سازی اشتراک</string>
+    <string name="or">یا</string>
+    <string name="buy_sub">خرید اشتراک</string>
+    <string name="buy_sub_desc">دریافت کد اشتراک جدید</string>
+    <string name="trial">تست رایگان</string>
+    <string name="trial_desc">۳ روز دسترسی کامل، رایگان</string>
+    <string name="support">پشتیبانی</string>
+    <string name="support_desc">ارتباط با تیم پشتیبانی</string>
+
+    <!-- خطاها و وضعیت -->
+    <string name="err_invalid_code">کد اشتراک نامعتبر است؛ دوباره بررسی کنید</string>
+    <string name="err_cooldown">تلاش‌های ناموفق زیاد بود؛ یک دقیقه صبر کنید</string>
+    <string name="trial_used">شما قبلاً از تست رایگان استفاده کرده‌اید</string>
+    <string name="trial_ok">تست رایگان فعال شد! خوش بگذرد 🚀</string>
+    <string name="activated_ok">اشتراک فعال شد ✔</string>
+    <string name="expired_toast">اشتراک شما منقضی شده است؛ لطفاً دوباره فعال کنید</string>
+    <string name="copied">کپی شد ✔</string>
+    <string name="no_client">برنامه کلاینت مناسبی پیدا نشد؛ کانفیگ کپی شد — آن را در برنامه VPN خود جای‌گذاری کنید</string>
+    <string name="empty_configs">فعلاً کانفیگی برای نمایش نیست؛ دکمه بروزرسانی را بزنید</string>
+    <string name="err_open_link">برنامه‌ای برای باز کردن این لینک پیدا نشد</string>
+    <string name="offline_notice">نمایش آخرین اطلاعات ذخیره‌شده (حالت آفلاین)</string>
+
+    <!-- قفل -->
+    <string name="locked_title">دسترسی قفل است</string>
+    <string name="locked_desc">برای مشاهده کانفیگ‌ها به اشتراک فعال نیاز دارید</string>
+    <string name="locked_btn">ورود / فعال‌سازی</string>
+    <string name="exit_app">بستن برنامه</string>
+
+    <!-- داشبورد -->
+    <string name="my_configs">کانفیگ‌های فعال</string>
+    <string name="refresh">بروزرسانی</string>
+    <string name="connect">اتصال</string>
+    <string name="share">اشتراک‌گذاری</string>
+    <string name="logout">خروج از حساب</string>
+    <string name="logout_confirm">کد اشتراک از این دستگاه پاک می‌شود. مطمئن هستید؟</string>
+    <string name="yes">بله، خروج</string>
+    <string name="no">لغو</string>
+    <string name="plan_label">نوع اشتراک</string>
+    <string name="days_left_fmt">%s روز باقی‌مانده</string>
+    <string name="expires_fmt">انقضا: %s</string>
+    <string name="trial_plan">تست رایگان</string>
+    <string name="trial_badge">حالت تست رایگان</string>
+
+    <!-- خرید -->
+    <string name="buy_title">خرید اشتراک</string>
+    <string name="buy_desc">برای دریافت کد اشتراک، از طریق تلگرام با ما در تماس باشید. پس از پرداخت، کد عددی مخصوص شما ارسال می‌شود که همان را در اپ وارد می‌کنید.</string>
+    <string name="plans_title">پلن‌ها و قیمت‌ها</string>
+    <string name="plan1_name">اشتراک یک‌ماهه</string>
+    <string name="plan1_price">۱۵۰ هزار تومان</string>
+    <string name="plan1_features">تمام سرورها • ترافیک نامحدود • پشتیبانی ۲۴/۷</string>
+    <string name="plan2_name">اشتراک سه‌ماهه</string>
+    <string name="plan2_price">۴۰۰ هزار تومان</string>
+    <string name="plan2_features">تمام سرورها • ترافیک نامحدود • ۱۵٪ تخفیف</string>
+    <string name="plan3_name">اشتراک سالانه</string>
+    <string name="plan3_price">۱٬۴۰۰ هزار تومان</string>
+    <string name="plan3_features">تمام سرورها • ترافیک نامحدود • ۳۰٪ تخفیف</string>
+    <string name="buy_via_tg">خرید از طریق تلگرام</string>
+    <string name="buy_note">پس از پرداخت، کد اشتراک عددی برایتان ارسال می‌شود</string>
+
+    <!-- پشتیبانی -->
+    <string name="support_title">پشتیبانی</string>
+    <string name="support_desc">تیم پشتیبانی همیشه کنار شماست؛ از هر یک از راه‌های زیر استفاده کنید</string>
+    <string name="support_telegram">تلگرام</string>
+    <string name="support_tg_handle">@mianboor_support</string>
+    <string name="support_email">ایمیل</string>
+    <string name="support_email_value">support@mianboor.app</string>
+    <string name="support_hours">ساعات پاسخگویی</string>
+    <string name="support_hours_value">هر روز، ۹ صبح تا ۱۲ شب</string>
+</resources>

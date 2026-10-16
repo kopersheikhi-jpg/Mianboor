@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Mianboor" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">@color/neon_purple</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorPrimaryContainer">@color/bg_card</item>
+        <item name="colorSecondary">@color/neon_blue</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="android:colorBackground">@color/bg_dark</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="android:textColorSecondary">@color/text_secondary</item>
+        <item name="android:textColorHint">@color/text_hint</item>
+        <item name="android:fontFamily">@font/vazirmatn</item>
+        <item name="fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="Theme.Mianboor.Splash">
+        <item name="android:windowBackground">@drawable/bg_space</item>
+    </style>
+
+    <style name="Theme.Mianboor.GateDialog" parent="ThemeOverlay.Material3.Dialog">
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowAnimationStyle">@style/DialogAnim</item>
+        <item name="colorPrimary">@color/neon_purple</item>
+        <item name="android:fontFamily">@font/vazirmatn</item>
+    </style>
+
+    <style name="Theme.Mianboor.Alert" parent="ThemeOverlay.Material3.MaterialAlertDialog">
+        <item name="colorPrimary">@color/neon_purple</item>
+        <item name="colorSurface">@color/bg_card</item>
+        <item name="materialAlertDialogBackgroundColor">@color/bg_card</item>
+    </style>
+
+    <style name="DialogAnim" parent="android:Animation">
+        <item name="android:windowEnterAnimation">@anim/dialog_in</item>
+        <item name="android:windowExitAnimation">@anim/dialog_out</item>
+    </style>
+
+    <style name="NeonButton" parent="Widget.Material3.Button">
+        <item name="android:background">@drawable/bg_neon_button</item>
+        <item name="backgroundTint">@null</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:elevation">0dp</item>
+        <item name="rippleColor">#33FFFFFF</item>
+    </style>
+
+    <style name="HudText" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:alpha">0.32</item>
+        <item name="android:letterSpacing">0.18</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="GlassOptionRow">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:paddingStart">14dp</item>
+        <item name="android:paddingEnd">14dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:background">@drawable/ripple_glass</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="OptionIconBox">
+        <item name="android:layout_width">42dp</item>
+        <item name="android:layout_height">42dp</item>
+        <item name="android:background">@drawable/bg_icon_btn</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+</resources>

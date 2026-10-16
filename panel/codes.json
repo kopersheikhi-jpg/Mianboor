@@ -1,0 +1,27 @@
+{
+  "version": 1,
+  "codes": [
+    {
+      "hash": "c775e7b757ede630cd0aa1113bd102661ab38829ca52a6422ab782862f268646",
+      "plan": "اشتراک یک‌ماهه",
+      "days": 30,
+      "active": true,
+      "note": "نمونه — مشتری ۱"
+    },
+    {
+      "hash": "29a1b914c33ac46c38db1103b42202f9926b92103cc1b0a91aa68e1d2714b665",
+      "plan": "اشتراک سه‌ماهه",
+      "days": 90,
+      "active": true,
+      "note": "نمونه — مشتری ۲"
+    },
+    {
+      "hash": "e0ddb3074f64e8738da5fee159a19d8898929aeadaad126d9c72da306ec941ed",
+      "plan": "تست هفتگی",
+      "days": 7,
+      "active": true,
+      "note": "نمونه — مهمان"
+    }
+  ],
+  "updated": "2026-10-16"
+}

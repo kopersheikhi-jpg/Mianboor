@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="240dp"
+    android:height="240dp"
+    android:viewportWidth="240"
+    android:viewportHeight="240">
+
+    <!-- حلقه نئون بالایی (بنفش) -->
+    <path
+        android:pathData="M48,120 A72,72 0 0 1 192,120"
+        android:strokeColor="#A855F7"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- حلقه نئون پایینی (آبی) -->
+    <path
+        android:pathData="M192,120 A72,72 0 0 1 48,120"
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="7"
+        android:strokeLineCap="round" />
+
+    <!-- حلقه داخلی محو -->
+    <path
+        android:pathData="M70,120 a50,50 0 1 0 100,0 a50,50 0 1 0 -100,0"
+        android:strokeColor="#7C3AED"
+        android:strokeAlpha="0.35"
+        android:strokeWidth="2" />
+
+    <!-- شش‌ضلعی مرکزی -->
+    <path
+        android:pathData="M120,80 L154.6,100 L154.6,140 L120,160 L85.4,140 L85.4,100 Z"
+        android:strokeColor="#8B5CF6"
+        android:strokeAlpha="0.9"
+        android:strokeWidth="3" />
+
+    <!-- هواپیمای کاغذی (استایل تلگرام) -->
+    <path
+        android:pathData="M96,126 L150,100 L132,134 L122,128 Z"
+        android:fillColor="#F0ABFC" />
+    <path
+        android:pathData="M122,128 L126,140 L132,134 Z"
+        android:fillColor="#7DD3FC" />
+
+    <!-- ستاره‌های ریز -->
+    <path android:fillColor="#66FFFFFF" android:pathData="M30,60 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path android:fillColor="#4D38BDF8" android:pathData="M205,45 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+    <path android:fillColor="#59E879F9" android:pathData="M215,190 m-1.5,0 a1.5,1.5 0 1,0 3,0 a1.5,1.5 0 1,0 -3,0" />
+    <path android:fillColor="#40FFFFFF" android:pathData="M35,180 m-2,0 a2,2 0 1,0 4,0 a2,2 0 1,0 -4,0" />
+</vector>

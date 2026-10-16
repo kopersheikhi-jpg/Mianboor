@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- پس‌زمینه فضایی تیره -->
+    <color name="bg_dark">#0A0720</color>
+    <color name="bg_dark2">#120A2E</color>
+    <color name="bg_card">#14102B</color>
+    <color name="bg_sheet">#150C33</color>
+
+    <!-- نئون‌ها -->
+    <color name="neon_purple">#A855F7</color>
+    <color name="neon_pink">#E879F9</color>
+    <color name="neon_blue">#38BDF8</color>
+    <color name="neon_green">#34D399</color>
+
+    <!-- متن -->
+    <color name="text_primary">#F5F2FF</color>
+    <color name="text_secondary">#A79DC9</color>
+    <color name="text_hint">#6B7BA8</color>
+
+    <!-- وضعیت -->
+    <color name="danger">#F87171</color>
+    <color name="warn">#FBBF24</color>
+    <color name="chip_text">#E9D5FF</color>
+    <color name="chip_green_text">#0B3B2A</color>
+
+    <!-- شیشه -->
+    <color name="glass_fill">#14FFFFFF</color>
+    <color name="glass_stroke">#2EFFFFFF</color>
+
+    <color name="ic_launcher_background">#0B0721</color>
+</resources>
